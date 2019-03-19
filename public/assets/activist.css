@@ -1,0 +1,31 @@
+html, body {
+  font: 16px Verdana, sans-serif;
+  color: #333;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url("activist-header.png") center no-repeat;
+  height: 290px;
+  margin: 0 0 75px;
+}
+
+#content {
+  min-height: 100%;
+  margin: 0 auto;
+  width: 600px;
+}
+
+#content-inner {
+  padding: 0 0 25px 0;
+}
+
+footer {
+  margin-top: -7px;
+  height: 7px;
+  background-color: #3e83c4;
+}
+
+/*# sourceMappingURL=activist.css.map */
