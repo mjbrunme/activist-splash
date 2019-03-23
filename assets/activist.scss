@@ -3,6 +3,7 @@ $font-color: #494949;
 $font-size: 1.0em;
 $background-color: #fff;
 $alt-color: #3e83c4;
+$break-small: 500px;
 
 html, body {
   font: $font-size $font-stack;
@@ -47,12 +48,18 @@ ul.hero-numbers {
       font-size: 2.8em;
       font-weight: bolder;
       text-rendering: optimizelegibility;
+      @media screen and (max-width: $break-small) {
+        font-size: 2.0em;
+      }
     }
   }
 }
 
-p.signature-images img {
-  width: 25%;
+p.signature-images {
+  font-size: 0; /* don't show spaces between images */
+  img {
+    width: 25%;
+  }
 }
 
 footer {
